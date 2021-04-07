@@ -1,38 +1,68 @@
-.App {
+body {
+  padding: 0;
+  display: block;
+  margin: auto;
+  background-size: auto;
+}
+
+.container {
+  display: block;
+  max-width: 550px;
+  margin: auto;
+  margin-top: 30px;
+  padding: 50px;
+  border-radius: 8px;
   text-align: center;
+  position: relative;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.container::before {
+  content: "";
+  background-image: url("https://r1.ilikewallpaper.net/iphone-x-wallpapers/download/36458/Sunset-sea-iphone-x-wallpaper-ilikewallpaper_com.jpg");
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 0.75;
+  z-index: -2;
+  border-radius: 8px;
+}
+.weather-app-wrapper {
+  max-width: 800px;
+  display: block;
+  margin: 0px auto;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.form-row {
+  display: block;
+  margin: 10px 220px;
+  left: -200px;
+  width: 400px;
+  position: relative;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.active {
+  color: rgb(32, 33, 110);
+  cursor: default;
 }
 
-.App-link {
-  color: #61dafb;
+.active:hover {
+  text-decoration: none;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+small {
+  position: relative;
+  left: 125px;
+  color: #48484a;
+}
+
+ul {
+  padding: 10px;
+}
+ul li {
+  display: inline;
+  padding: 5px 5px;
+  color: #48484a;
+  font-weight: bold;
 }

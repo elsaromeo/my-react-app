@@ -1,0 +1,44 @@
+h1 {
+  font-size: 70px;
+  position: relative;
+  color: #ec6e4b;
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
+  padding: 10px 20px;
+  margin: 0px;
+}
+
+.note {
+  font-size: 20px;
+  color: #48484a;
+  text-align: center;
+  font-weight: bold;
+}
+#current_temperature {
+  font-size: 80px;
+  font-weight: bold;
+  color: #48484a;
+}
+#fahrenheit_link {
+  font-size: 30px;
+  color: #48484a;
+}
+#celsius_link {
+  font-size: 30px;
+  color: #48484a;
+}
+small {
+  position: relative;
+  left: 125px;
+  color: #48484a;
+}
+
+ul {
+  padding: 10px;
+}
+ul li {
+  display: inline;
+  padding: 5px 5px;
+  color: #48484a;
+  font-weight: bold;
+}
