@@ -23,6 +23,7 @@ export default function Body() {
           src="http://openweathermap.org/img/wn/13d@2x.png"
           id="icon"
           class="float-center"
+          alt="weather"
         />
         <div id="note" class="note">
           Snow
