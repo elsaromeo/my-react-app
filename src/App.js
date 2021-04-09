@@ -14,6 +14,10 @@ export default function App() {
         <br />
         <Forecast />
         <br />
+        <footer>
+          This project was coded by <a href="https://nostalgic-bhabha-b4cffb.netlify.app/"
+          target="_blank"/>
+        </footer>
       </div>
     </div>
   );
