@@ -8,12 +8,12 @@ export default function Body() {
         <div class="float-right">
           <span id="current_temperature">10</span>
           <span class="units">
-            <a href="#" id="celsius_link" class="active">
+            <span href="#" id="celsius_link" class="active">
               °C |
-            </a>
-            <a href="#" id="fahrenheit_link">
+            </span>
+            <span href="#" id="fahrenheit_link">
               °F
-            </a>
+            </span>
           </span>
         </div>
       </div>

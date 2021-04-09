@@ -1,5 +1,5 @@
-import "./styles.css";
-import "./app.css";
+import "./Styles.css";
+import "./App.css";
 import Header from "./Header";
 import Body from "./Body";
 import Forecast from "./Forecast";

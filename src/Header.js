@@ -4,7 +4,7 @@ import "./Header.css";
 export default function Header() {
   return (
     <div className="header">
-      <h2 id="date"></h2>
+      <h2 id="date">08/04/2021</h2>
       <form id="searchForm" class="form-row">
         <div class="col">
           <input
