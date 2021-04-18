@@ -1,53 +1,13 @@
 weather-forecast {
   margin-top: 10px;
 }
-
-.weather-forecast h3 {
-  color: #48484a;
-  font-size: 14px;
-  font-weight: 400;
-  text-align: center;
-  height: 15px;
-  line-height: 15px;
-  padding-top: 7px;
-}
-.weather-forecast img {
-  display: block;
-  margin: 0 auto;
-  height: 48px;
-  width: 48px;
-}
-
-.weather-forecast-temperature {
-  text-align: center;
-  color: #48484a;
-  font-size: 13px;
-  font-weight: 400;
-  height: auto;
-  line-height: 15px;
-  white-space: nowrap;
-}
-.active {
-  color: rgb(32, 33, 110);
-  cursor: default;
-}
-
-.active:hover {
-  text-decoration: none;
-}
-
-small {
-  position: relative;
-  left: 125px;
-  color: #48484a;
-}
-
-ul {
-  padding: 10px;
-}
-ul li {
-  display: inline;
-  padding: 5px 5px;
-  color: #48484a;
-  font-weight: bold;
+#weather-forecast {
+  background-color: rgb(32, 57, 105);
+  width: 560px;
+  margin-left: 20px;
+  padding: 20px 5px;
+  border-radius: 8px;
+  opacity: 0.8;
+  color: white;
+  box-shadow: 5px 5px #566fa0;
 }

@@ -1,39 +1,32 @@
-body {
-  padding: 0;
-  display: block;
-  margin: 0;
-  background-size: auto;
-}
-
 .container {
   display: block;
   max-width: 600px;
   margin: auto;
   margin-top: 30px;
+  margin-bottom: 0px;
   padding: 0px;
   border-radius: 8px;
   text-align: center;
   position: relative;
 }
 
-.container::before {
+#main::before {
   content: "";
-  background-image: url("https://r1.ilikewallpaper.net/iphone-x-wallpapers/download/36458/Sunset-sea-iphone-x-wallpaper-ilikewallpaper_com.jpg");
+  background-image: url("https://images.unsplash.com/photo-1463947628408-f8581a2f4aca?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1000&q=80");
   position: absolute;
   top: 0px;
   right: 0px;
   bottom: 0px;
   left: 0px;
-  opacity: 0.75;
+  opacity: 0.4;
   z-index: -2;
   border-radius: 8px;
 }
-.weather-app-wrapper {
-  max-width: 700px;
-  display: block;
-  margin: 0px;
+#footer {
+  text-align: left;
+  font-size: small;
+  margin-top: 5px;
 }
-
 .form-row {
   display: block;
   margin: 10px 300px;
@@ -55,14 +48,4 @@ small {
   position: relative;
   left: 125px;
   color: #48484a;
-}
-
-ul {
-  padding: 10px;
-}
-ul li {
-  display: inline;
-  padding: 0px 0px;
-  color: #48484a;
-  font-weight: bold;
 }

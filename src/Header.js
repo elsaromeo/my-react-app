@@ -1,10 +1,20 @@
-import React from "react";
 import "./Header.css";
-
+import React,{useState} from "react";
+import FormattedDate from "./FormattedDate.js"
+import axios from "axios";
 export default function Header() {
+  const[date,setDate]=useState(null);
+  const[ready,setReady]=useState(false);
+  function showDate(response){
+    setDate(new Date(response.data.dt*1000));
+    setReady(true);
+  }
+  
+  if(ready){
   return (
+    
     <div className="header">
-      <h2 id="date">08/04/2021</h2>
+      <h2 id="date"><FormattedDate date={date} /></h2>
       <form id="searchForm" class="form-row">
         <div class="col">
           <input
@@ -37,5 +47,11 @@ export default function Header() {
         </div>
       </form>
     </div>
-  );
+  );}else{
+    const apiKey = "53d9f3240876d7e67fb71eca50eddb19";
+  let city="rome";
+  let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`;
+  axios.get(apiUrl).then(showDate);
+return "Loading...";
+  }
 }
