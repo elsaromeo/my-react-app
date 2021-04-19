@@ -1,7 +1,7 @@
 import "./Styles.css";
 import "./App.css";
-import Header from "./Header";
-import Body from "./Body";
+import Weather from "./Weather";
+import WeatherInfo from "./WeatherInfo";
 import Forecast from "./Forecast";
 
 
@@ -9,9 +9,7 @@ export default function App() {
   return (
     <div className="App">
       <div className="container" id="main">
-        <Header />
-        <br />
-        <Body />
+        <Weather defaultCity="Rome" />
         <br />
         <Forecast />
         <br />
