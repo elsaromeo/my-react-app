@@ -2,7 +2,6 @@ import "./Weather.css";
 import React,{useState} from "react";
 import WeatherInfo from "./WeatherInfo";
 import axios from "axios";
-import FormattedDate from "./FormattedDate";
 
 
 export default function Weather(props) {
@@ -19,7 +18,7 @@ export default function Weather(props) {
       description: response.data.weather[0].description,
       icon: response.data.weather[0].icon,
       wind: response.data.wind.speed,
-      city: response.data.name,
+      city: response.data.name
     });
   }
 

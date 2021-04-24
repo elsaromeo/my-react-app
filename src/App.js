@@ -1,7 +1,6 @@
 import "./Styles.css";
 import "./App.css";
 import Weather from "./Weather";
-import WeatherInfo from "./WeatherInfo";
 import Forecast from "./Forecast";
 
 

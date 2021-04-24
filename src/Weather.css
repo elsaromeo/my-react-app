@@ -45,21 +45,22 @@ h1 {
   font-weight: bold;
 }
 #current_temperature {
-  font-size: 80px;
+  font-size: 40px;
   font-weight: bold;
+  text-align: left;
   color: rgb(32, 57, 105);
 }
 #fahrenheit_link {
   font-size: 20px;
   font-weight: bold;
-  top: -35px;
+  top: -5px;
   color: rgb(32, 57, 105);
   position: relative;
 }
 #celsius_link {
   padding: 5px;
   font-weight: bold;
-  top: -35px;
+  top: -5px;
   font-size: 20px;
   color: rgb(32, 57, 105);
   position: relative;
@@ -79,6 +80,15 @@ ul {
   font-style: italic;
   text-transform: uppercase;
   font-weight: bold;
+  text-align: center;
+}
+
+#temperature {
+  color: rgb(32, 57, 105);
+  font-style: italic;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-align: left;
 }
 #date {
   color: rgb(32, 57, 105);
@@ -93,4 +103,12 @@ ul li {
   text-align: left;
   font-style: italic;
   list-style-type: none;
+}
+
+.Weather canvas {
+  margin: 10px 0px 0px 0px;
+}
+
+#IconDesc {
+  margin: 50px 0px 0px 0px;
 }
