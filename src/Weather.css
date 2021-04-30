@@ -33,7 +33,7 @@ h1 {
   color: rgb(32, 57, 105);
   font-family: "Raleway", sans-serif;
   font-weight: bold;
-  padding: 0px 20px 5px 40px;
+  padding: 0px 20px 0px 40px;
   margin: 0px;
   text-transform: uppercase;
 }
@@ -74,13 +74,15 @@ ul {
   float: left;
   margin-right: 20px;
   margin-left: 20px;
+  font-size: 15px;
 }
 #description {
   color: rgb(32, 57, 105);
   font-style: italic;
-  text-transform: uppercase;
   font-weight: bold;
-  text-align: center;
+  text-align: left;
+  text-transform: capitalize;
+  font-size: 15px;
 }
 
 #temperature {
