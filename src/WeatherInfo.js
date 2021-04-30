@@ -3,6 +3,7 @@ import WeatherIcon from "./WeatherIcon";
 import FormattedDate from "./FormattedDate";
 import WeatherTemperature from "./WeatherTemperature";
 
+
 export default function WeatherInfo(props) {
       return(
         <div className="WeatherInfo">
@@ -30,7 +31,7 @@ export default function WeatherInfo(props) {
       <div class="col-4">
         <ul id="IconDesc">
           <li>
-            <WeatherIcon code={props.data.icon} size={130}/>
+            <WeatherIcon code={props.data.icon} size={130} color={"rgb(32, 57, 105)"}/>
             </li>
             </ul>
       </div>

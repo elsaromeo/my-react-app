@@ -1,16 +1,14 @@
 import "./Styles.css";
 import "./App.css";
 import Weather from "./Weather";
-import Forecast from "./Forecast";
+
 
 
 export default function App() {
   return (
     <div className="App">
       <div className="container" id="main">
-        <Weather defaultCity="Rome" />
-        <br />
-        <Forecast />
+        <Weather defaultCity="Milan" />
         <br />
       </div>
       
