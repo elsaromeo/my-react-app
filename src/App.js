@@ -14,7 +14,7 @@ export default function App() {
       
        <footer id="footer">
           This project was coded by <a href="https://nostalgic-bhabha-b4cffb.netlify.app/"
-          target="_blank"/>Elsa Romeo and is {" "}
+          target="_blank" rel="noreferrer"/>Elsa Romeo and is {" "}
           <a
             href="https://github.com/elsaromeo/my-react-app"
             target="_blank"
